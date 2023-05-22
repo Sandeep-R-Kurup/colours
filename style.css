@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .container {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+  }
+  .colors {
+    width: 80%;
+    /* color: aliceblue; */
+    background-color: white;
+    padding: 1%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+  }
+  .color {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* width: 340px;
+    height: 110px; */
+    width: 98%;
+    height: 94%;
+  }
+  p {
+    opacity: 60%;
+    font-size: medium;
+  }
